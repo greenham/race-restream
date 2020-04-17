@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  main {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    text-align: right;
+
+    small {
+      font-size: 1rem;
+    }
+  }
+}
+
+#headsup .container {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+}
+
+#grid .container {
+  width: 1280px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 0px;
+}
+
+.race-title {
+  font-weight: 800;
+}
+
+.race-subtitle {
+  font-weight: 400;
+}
+
+.racer-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-self: center;
+}
+
+.racer-nameplate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.racer-name {
+  font-weight: 200;
+}
+
+.racer-final-time {
+  min-height: 2.5rem;
+  font-size: 2rem;
+}
+
+#headsup .game-feed {
+  width: 620px;
+  height: 470px;
+  background: url("/assets/bg/600x450-10px-border-transparent.png");
+  margin-bottom: 10px;
+}
+
+#grid .game-feed {
+  width: 332px;
+  height: 254px;
+  background: url("/assets/bg/312x234-border.png");
+  margin-bottom: 5px;
+}
+
+.text-icon {
+  height: 1em;
+  width: 1em;
+  fill: #fff;
+}
+
+#comms-grid {
+  width: 20vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -11vw;
+  top: 23%;
+  padding: 1vw;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+#comms-headsup {
+  width: 20vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -11vw;
+  bottom: 0;
+  padding: 1vw;
+  font-size: 0.9em;
+  font-weight: 400;
+}
