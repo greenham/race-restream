@@ -2,6 +2,7 @@ import React from "react";
 import "./tourney.scss";
 import { ReactComponent as TwitchGlitch } from "../../assets/TwitchGlitchPurple.svg";
 import { ReactComponent as CommsIcon } from "../../assets/comms.svg";
+import { ReactComponent as TrophyIcon } from "../../assets/trophy.svg";
 
 function NMG2021Theme(props) {
   const { racers, comms } = props.config;
@@ -38,6 +39,18 @@ function NMG2021Theme(props) {
                   className="racer-time"
                 >
                   Final Time: <strong>{racer.finalTime}</strong>
+                </div>
+              )}
+              {racer.winner && (
+                <div
+                  id={racer.position + "-racer-winner-indicator"}
+                  className="racer-winner"
+                >
+                  <TrophyIcon
+                    className="text-icon"
+                    style={{ paddingRight: 10 }}
+                  />{" "}
+                  <strong>WINNER!</strong>
                 </div>
               )}
             </div>
