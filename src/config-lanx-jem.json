@@ -11,7 +11,7 @@
       "seed": 14,
       "record": "0-0",
       "currentPB": "1:25:22",
-      "finalTime": "",
+      "finalTime": "1:27:43",
       "winner": false
     },
     {
@@ -21,9 +21,9 @@
       "seed": 19,
       "record": "0-0",
       "currentPB": "1:25:59",
-      "finalTime": "",
-      "winner": false
+      "finalTime": "1:27:36",
+      "winner": true
     }
   ],
-  "comms": [{ "name": "Twitch Chat" }]
+  "comms": [{ "name": "andersQT" }, { "name": "Fricker22" }]
 }
