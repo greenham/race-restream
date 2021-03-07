@@ -9,9 +9,9 @@
       "name": "g3rd0",
       "pronouns": "he/him",
       "seed": 9,
-      "record": "0-0",
+      "record": "0-1",
       "currentPB": "1:24:56",
-      "finalTime": "",
+      "finalTime": "1:30:03",
       "winner": false
     },
     {
@@ -19,18 +19,18 @@
       "name": "Chexhuman",
       "pronouns": "he/him",
       "seed": 24,
-      "record": "0-1",
+      "record": "1-1",
       "currentPB": "1:26:41",
-      "finalTime": "",
-      "winner": false
+      "finalTime": "1:27:30",
+      "winner": true
     }
   ],
   "comms": [
     {
-      "name": "daotmb"
+      "name": "ErirorPS"
     },
     {
-      "name": "ErirorPS"
+      "name": "siriuscord"
     }
   ]
 }
