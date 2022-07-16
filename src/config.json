@@ -1,0 +1,29 @@
+{
+  "race": {
+    "title": "2022 Any% NMG League",
+    "subtitle": "Dark World · Round 1"
+  },
+  "racers": [
+    {
+      "position": "left",
+      "name": "BambooShadow",
+      "pronouns": "he/him",
+      "seed": 14,
+      "record": "0-0",
+      "currentPB": "1:25:43",
+      "finalTime": "",
+      "winner": false
+    },
+    {
+      "position": "right",
+      "name": "relkin",
+      "pronouns": "he/him",
+      "seed": 11,
+      "record": "0-0",
+      "currentPB": "1:25:16",
+      "finalTime": "",
+      "winner": false
+    }
+  ],
+  "comms": [{ "name": "clearmouse" }, { "name": "matt7898" }]
+}
