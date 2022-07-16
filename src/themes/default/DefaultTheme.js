@@ -24,7 +24,7 @@ function DefaultTheme(props) {
                     className="text-icon"
                     style={{ paddingRight: 5 }}
                   />{" "}
-                  <span className="racer-name">{racer.name.toUpperCase()}</span>
+                  <span className="racer-name">{racer.name}</span>
                 </div>
                 <div className="racer-final-time">{racer.finalTime}</div>
               </div>

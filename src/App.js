@@ -5,6 +5,9 @@ const DefaultTheme = React.lazy(() => import("./themes/default/DefaultTheme"));
 const NMG2021Theme = React.lazy(() =>
   import("./themes/nmg-tourney-2021/NMG2021Theme")
 );
+const NMGLeague2022Theme = React.lazy(() =>
+  import("./themes/nmg-league-2022/nmg-league-2022")
+);
 
 export default function App() {
   return (
@@ -16,6 +19,9 @@ export default function App() {
           </Route>
           <Route exact path="/nmg-tourney-2021">
             <NMG2021Theme config={config} />
+          </Route>
+          <Route exact path="/nmg-league-2022">
+            <NMGLeague2022Theme config={config} />
           </Route>
         </Switch>
       </Suspense>
