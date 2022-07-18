@@ -21,9 +21,7 @@ function NMGLeague2022Theme(props) {
                     className="text-icon"
                     style={{ paddingRight: 5 }}
                   />{" "}
-                  <span className="racer-name">
-                    {racer.name} ({racer.seed})
-                  </span>
+                  <span className="racer-name">{racer.name}</span>
                   <span className="racer-pronouns">
                     {racer.pronouns.toUpperCase()}{" "}
                   </span>
