@@ -1,29 +1,29 @@
 {
   "race": {
     "title": "2022 Any% NMG League",
-    "subtitle": "Dark World · Round 1"
+    "subtitle": "Dark World · Round 2"
   },
   "racers": [
     {
       "position": "left",
-      "name": "BambooShadow",
+      "name": "mooglemod",
       "pronouns": "he/him",
-      "seed": 14,
-      "record": "0-0",
-      "currentPB": "1:25:43",
-      "finalTime": "",
-      "winner": false
+      "seed": 10,
+      "record": "1-1",
+      "currentPB": "1:25:08",
+      "finalTime": "1:25:17",
+      "winner": true
     },
     {
       "position": "right",
-      "name": "relkin",
+      "name": "VortexofDoom97",
       "pronouns": "he/him",
-      "seed": 11,
-      "record": "0-0",
-      "currentPB": "1:25:16",
-      "finalTime": "",
+      "seed": 16,
+      "record": "0-2",
+      "currentPB": "1:26:01",
+      "finalTime": "1:31:26",
       "winner": false
     }
   ],
-  "comms": [{ "name": "clearmouse" }, { "name": "matt7898" }]
+  "comms": [{ "name": "FoxLisk" }, { "name": "daotmb" }]
 }
