@@ -22,4 +22,5 @@ CMD ["npm", "start"]
 # Production target: Build the React application and serve it using npx serve
 FROM build as prod
 RUN npm run build
-CMD ["npx", "serve", "-s", "build", "-l", "3000"]
+RUN npm install -g serve
+CMD ["serve", "-s", "build", "-l", "3000"]
