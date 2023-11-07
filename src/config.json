@@ -1,29 +1,29 @@
 {
   "race": {
-    "title": "2022 Any% NMG League",
-    "subtitle": "Dark World · Round 2"
+    "title": "2023 Any% NMG League",
+    "subtitle": "Eastern Palace"
   },
   "racers": [
     {
       "position": "left",
-      "name": "mooglemod",
-      "pronouns": "he/him",
-      "seed": 10,
-      "record": "1-1",
-      "currentPB": "1:25:08",
-      "finalTime": "1:25:17",
-      "winner": true
+      "name": "twinmo23",
+      "pronouns": "she/her",
+      "seed": null,
+      "record": null,
+      "currentPB": "1:31:35",
+      "finalTime": "",
+      "winner": false
     },
     {
       "position": "right",
-      "name": "VortexofDoom97",
-      "pronouns": "he/him",
-      "seed": 16,
-      "record": "0-2",
-      "currentPB": "1:26:01",
-      "finalTime": "1:31:26",
+      "name": "NiobiumNarwhal",
+      "pronouns": "they/them",
+      "seed": null,
+      "record": null,
+      "currentPB": "1:43:45",
+      "finalTime": "",
       "winner": false
     }
   ],
-  "comms": [{ "name": "FoxLisk" }, { "name": "daotmb" }]
+  "comms": [{ "name": "greenHam" }]
 }

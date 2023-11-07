@@ -27,8 +27,8 @@ function NMGLeague2022Theme(props) {
                   </span>
                 </div>
                 <div className="racer-stats">
-                  PB: <strong>{racer.currentPB}</strong> | Record:{" "}
-                  <strong>{racer.record}</strong>
+                  PB: <strong>{racer.currentPB}</strong>
+                  {/* | Record:{" "} <strong>{racer.record}</strong> */}
                 </div>
               </div>
               {racer.finalTime && (
@@ -66,7 +66,7 @@ function NMGLeague2022Theme(props) {
       </main>
 
       <footer>
-        <small>Presented by ForeverGrind.fm</small>
+        <small></small>
       </footer>
     </div>
   );
